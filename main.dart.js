@@ -31742,8 +31742,8 @@ if(s.toUpperCase()==="FRIENDLY MATCH")return b==="tr"?"\xd6ZEL MA\xc7":"FRIENDLY
 r=A.bA("^Round\\s+(\\d+)$",!1,!1).h4(s)
 if(r!=null){q=A.m(r.b[1])
 return b==="tr"?q+". TUR":"ROUND "+q}if(s.toUpperCase()==="3RD PLACE MATCH")return b==="tr"?"\xdc\xc7\xdcNC\xdcL\xdcK MA\xc7I":"3RD PLACE MATCH"
-if(s.toUpperCase()==="QUARTER-FINAL")return b==="tr"?"\xc7EYREK F\u0130NAL\u0130":"QUARTER-FINAL"
-if(s.toUpperCase()==="SEMI-FINAL")return b==="tr"?"YARI F\u0130NAL\u0130":"SEMI-FINAL"
+if(s.toUpperCase()==="QUARTER-FINAL")return b==="tr"?"\xc7EYREK F\u0130NAL":"QUARTER-FINALS"
+if(s.toUpperCase()==="SEMI-FINAL")return b==="tr"?"YARI F\u0130NAL":"SEMI-FINALS"
 if(s.toUpperCase()==="FINAL")return b==="tr"?"KUPA F\u0130NAL\u0130":"CUP FINAL"
 p=A.bA("^Week\\s+(\\d+)$",!1,!1).h4(s)
 if(p!=null){q=A.m(p.b[1])
